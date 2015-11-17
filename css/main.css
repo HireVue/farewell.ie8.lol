@@ -68,10 +68,6 @@ body {
   background: #BAD1DD;
 }
 
-/* ===================
-ALL: Orange Theme
-=================== */
-
 .header-container {
   background-color: #0078D7;
   background-image: url("../img/mountains.svg"), url("../img/ie-logo.svg");
@@ -156,6 +152,16 @@ MOBILE: Main
 Author's custom styles
 ========================================================================== */
 
+@-webkit-keyframes blink {
+  50% {
+    opacity: .4;
+  }
+}
+@-moz-keyframes blink {
+  50% {
+    opacity: .4;
+  }
+}
 @keyframes blink {
   50% {
     opacity: .4;
@@ -163,11 +169,14 @@ Author's custom styles
 }
 
 .star {
+  -webkit-animation: blink 2s ease-in-out infinite both;
+  -moz-animation: blink 2s ease-in-out infinite both;
   animation: blink 2s ease-in-out infinite both;
 }
 
 .delay {
   -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
   animation-delay: 1s;
 }
 
