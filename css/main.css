@@ -6,6 +6,11 @@ html {
   line-height: 1.4;
 }
 
+h2 {
+  margin-top: 2em;
+  margin-bottom: .4em;
+}
+
 ::-moz-selection {
   background: #0078D7;
   text-shadow: none;
