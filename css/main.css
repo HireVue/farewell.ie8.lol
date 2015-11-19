@@ -33,6 +33,10 @@ a:hover {
   color: #02477D
 }
 
+i {
+  color: #8E8E8E;
+}
+
 .button {
   display: inline-block;
   color: white;
@@ -259,6 +263,15 @@ Author's custom styles
 
 .logo-domo {
   width: 138px;
+}
+
+.footnote {
+  text-decoration: none;
+  color: #EB3C00;
+}
+
+.small-text {
+  font-size: .75em;
 }
 
 /* ==========================================================================
