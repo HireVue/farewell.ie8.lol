@@ -141,6 +141,7 @@ body {
 
 .secondary {
   background: #BAD1DD;
+  padding: 7% 5%;
 }
 
 .header-container {
@@ -274,6 +275,24 @@ Author's custom styles
   font-size: .75em;
 }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* ==========================================================================
 Media Queries
 ========================================================================== */
@@ -284,33 +303,33 @@ Media Queries
   INTERMEDIATE: Menu
   ==================== */
 
-nav a {
-  float: left;
-  width: 27%;
-  margin: 0 1.7%;
-  padding: 25px 2%;
-  margin-bottom: 0;
-}
+  nav a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
 
-nav li:first-child a {
-  margin-left: 0;
-}
+  nav li:first-child a {
+    margin-left: 0;
+  }
 
-nav li:last-child a {
-  margin-right: 0;
-}
+  nav li:last-child a {
+    margin-right: 0;
+  }
 
-/* ========================
-INTERMEDIATE: IE Fixes
-======================== */
+  /* ========================
+  INTERMEDIATE: IE Fixes
+  ======================== */
 
-nav ul li {
-  display: inline;
-}
+  nav ul li {
+    display: inline;
+  }
 
-.oldie nav a {
-  margin: 0 0.7%;
-}
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -352,6 +371,10 @@ nav ul li {
   .wrapper {
     width: 1026px; /* 1140px - 10% for margins */
     margin: 0 auto;
+  }
+
+  .secondary {
+    padding: 7% 0;
   }
 }
 
