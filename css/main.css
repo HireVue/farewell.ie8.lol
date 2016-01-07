@@ -275,9 +275,22 @@ Author's custom styles
   margin-right: 35px;
 }
 
+.sold-out {
+  display: inline-block;
+  color: white;
+  background: #dd3837;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 .footnote {
   text-decoration: none;
   color: #EB3C00;
+}
+
+.footnotes {
+  margin-top: 80px;
 }
 
 .small-text {
