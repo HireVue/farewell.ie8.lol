@@ -128,10 +128,12 @@ textarea {
 
 .stream {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .stream-details {
   flex: 1;
+  float: left;
   border: 1px solid #ccd;
   padding: 20px;
   border-radius: 20px;
@@ -151,6 +153,11 @@ textarea {
 
 .live-stream-left {
   margin-right: 50px;
+}
+
+.stream-details .button {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
