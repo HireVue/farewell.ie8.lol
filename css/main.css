@@ -270,6 +270,11 @@ Author's custom styles
   width: 138px;
 }
 
+.logo-instructure {
+  width: 300px;
+  margin-right: 35px;
+}
+
 .footnote {
   text-decoration: none;
   color: #EB3C00;
